@@ -7,7 +7,7 @@ import json
 from kafka import KafkaProducer
 
 warnings.filterwarnings("ignore", category=FutureWarning)
-
+print("Random Test workflow")
 # Initialize index and file path
 index = 0
 file_name = f"/home/fort-vtc3/Desktop/gpsd_sim_{index}.csv"  # Use escaped backslashes
